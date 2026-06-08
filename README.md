@@ -9,3 +9,7 @@ Grupo formado por:
 
 Vitor Firmino de Souza RA: 1143439156
 Arthur Kenzo Frioli RA : 1142673501 
+
+
+Site hospedado com AWS Amplify e S3:
+https://staging.d7u0t6r6bdlv6.amplifyapp.com/
