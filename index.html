@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rolley Ball</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;800&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="./bola-de-futebol.png">
+
+    
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<!-- Foi utilizado o gemini para a a consulta dos 
+ FA icons e algumas fontes e 
+ tambem foi utilizado este video de um indiano com inspiração no projeto 
+ (https://www.youtube.com/watch?v=lXES05vE4jE) para a construção do layout
+ tambem utilizamos como consulta o site W3Schools para semantica e regras do CSS-->
+<body>
+
+    <header>
+        <div class="container-nav">
+            <div class="logo">
+                <img src="./rolleyball.webp" alt="Rolley Ball">
+            </div>
+            <nav class="links-nav">
+                <a href="#inicio">Início</a>
+                <a href="#quadra">A Quadra</a>
+                <a href="#gourmet">Espaço Gourmet</a>
+                <a href="#contato">Contato</a>
+            </nav>
+            <div class="botao-menu-mobile">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="conteudo-hero">
+            <h1>Futebol de Elite.<br><span>Resenha Garantida.</span></h1>
+            <p>A Rolley Ball oferece a melhor estrutura de grama sintética da região, integrada a um espaço gourmet completo para o churrasco perfeito após a partida.</p>
+            <div class="botoes-hero">
+                <a href="#quadra" class="botao botao-principal">Conhecer Estrutura</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="quadra" class="recursos">
+        <div class="container">
+            <h2 class="titulo-secao">Infraestrutura Profissional</h2>
+            <div class="divisor"></div>
+            <p class="subtitulo-secao">Tudo o que você precisa para jogar o seu melhor futebol, com conforto e segurança.</p>
+
+            <div class="grade-recursos">
+                <div class="cartao-recurso">
+                    <div class="icone-recurso">
+                        <i class="fa-solid fa-leaf"></i>
+                    </div>
+                    <h3>Grama Padrão FIFA</h3>
+                    <p>Fios importados com sistema avançado de amortecimento. Previne lesões e garante um jogo mais rápido e preciso.</p>
+                </div>
+                <div class="cartao-recurso">
+                    <div class="icone-recurso">
+                        <i class="fa-regular fa-lightbulb"></i>
+                    </div>
+                    <h3>Iluminação LED</h3>
+                    <p>Visibilidade perfeita para jogos noturnos. Sistema posicionado para não ofuscar a visão dos goleiros.</p>
+                </div>
+                <div class="cartao-recurso">
+                    <div class="icone-recurso">
+                        <i class="fa-solid fa-shower"></i>
+                    </div>
+                    <h3>Vestiários Premium</h3>
+                    <p>Ambiente limpo, duchas quentes de alta pressão e armários individuais com chave para seus pertences.</p>
+                </div>
+            </div>
+
+            <div class="placeholder-imagem-quadra">
+                <img src="./quadra.png" alt="Visão da nossa quadra padrão FIFA">
+            </div>
+        </div>
+    </section>
+
+    <section id="gourmet" class="gourmet">
+        <div class="container">
+            <h2 class="titulo-secao">O Terceiro Tempo</h2>
+            <div class="divisor"></div>
+            <p class="subtitulo-secao" style="color: #cbd5e1;">Porque a vitória merece ser celebrada e a derrota, esquecida com um bom churrasco.</p>
+
+            <div class="conteudo-gourmet">
+                <div class="texto-gourmet">
+                    <h3>Espaço Gourmet Integrado</h3>
+                    <p>Esqueça a correria de procurar um bar depois do jogo. Na Rolley Ball, você sai do campo direto para a churrasqueira.</p>
+                    <p>Nossa área é reservada, coberta e equipada para receber sua equipe com total conforto.</p>
+                    
+                    <ul class="lista-gourmet">
+                        <li><i class="fa-solid fa-fire-burner"></i> Churrasqueira grande com grelhas e espetos</li>
+                        <li><i class="fa-solid fa-snowflake"></i> Freezers horizontais para gelar rápido</li>
+                        <li><i class="fa-solid fa-tv"></i> Smart TV para assistir aos jogos da rodada</li>
+                        <li><i class="fa-solid fa-chair"></i> Mesas e cadeiras para até 40 pessoas</li>
+                    </ul>
+                </div>
+                
+                <div class="imagem-gourmet">
+                    <div class="placeholder-imagem-churrasco">
+                        <img src="./churrasco.jpg" alt="Área gourmet com churrasqueira e mesas">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato">
+        <div class="container">
+            <div class="info-contato">
+                <h3>Venha jogar com a gente</h3>
+                
+                <div class="item-info">
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <div>
+                        <h4>WhatsApp</h4>
+                        <p>(11) 94379-6277</p>
+                    </div>
+                </div>
+                
+                <div class="item-info">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <h4>Endereço</h4>
+                        <p>R. Galeno de Castro, 479 - Santo Amaro,<br> São Paulo - SP, 04696-040</p>
+                    </div>
+                </div>
+                
+                <div class="item-info">
+                    <i class="fa-regular fa-clock"></i>
+                    <div>
+                        <h4>Funcionamento</h4>
+                        <p>Segunda a sexta: 09:00 às 23:00</p>
+                        <p>Sábado: 09:00 às 18:00</p>
+                        <p>Domingo: 08:00 às 16:00</p>
+                    </div>
+                </div>
+
+                <div class="placeholder-mapa">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.2604731117135!2d-46.70713862451008!3d-23.666641365468738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce504a229cb81f%3A0x7e0440903002c7a4!2sRolley%20Ball!5e0!3m2!1spt-BR!2sbr!4v1780890726135!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="logo-rodape">
+                <img src="./rolleyball.webp" alt="Rolley Ball">
+            </div>
+            
+            <div class="links-sociais">
+                <a href="https://www.instagram.com/rolleyball/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/5511943796277" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            
+            <div class="rodape-fim">
+                <p>&copy; 2026 Rolley Ball Arena. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
